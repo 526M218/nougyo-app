@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #eef5e9;
+  text-align: center;
+}
+
+.app {
+  max-width: 420px;
+  margin: auto;
+  padding: 30px 20px;
+}
+
+h1 {
+  color: #2c6e49;
+  margin-bottom: 25px;
+}
+
+.card {
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.normal {
+  background: #4caf50;
+}
+
+.warning {
+  background: #f9a825;
+}
+
+.danger {
+  background: #d32f2f;
+}
+
+#status {
+  font-size: 28px;
+  margin: 5px 0;
+}
+
+#message {
+  font-size: 16px;
+}
+
+.timerArea p {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#timer {
+  font-size: 60px;
+  color: #c62828;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 90%;
+  font-size: 26px;
+  padding: 18px;
+  border: none;
+  border-radius: 16px;
+  background: #4caf50;
+  color: white;
+  margin: 10px 0;
+}
+
+.subButton {
+  background: #777;
+  font-size: 20px;
+}
+
+#alertArea {
+  background: #fff3cd;
+  border: 2px solid #f9a825;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+#alertText {
+  font-size: 24px;
+  font-weight: bold;
+  color: #c62828;
+}
+
+#countdown {
+  font-size: 22px;
+  color: #c62828;
+}
+
+#notifyArea {
+  background: #ffebee;
+  border: 2px solid #d32f2f;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
