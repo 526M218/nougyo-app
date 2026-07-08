@@ -71,7 +71,7 @@ function runAlert() {
 
   statusText.innerText = notified
     ? "🚨 通知済み：動くまで警告を継続中"
-    : "⚠ アラート中：スマホを動かすと解除";
+    : "⚠ アラート中：通知まであと " + remain + " 秒";
 
   document.body.style.background =
     alertSec % 2 === 0 ? "#fff3cd" : "#ffebee";
