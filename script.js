@@ -7,7 +7,7 @@ let monitoring = false;
 let alerting = false;
 
 const START_ALERT = 15;   // 本物は300
-const ALERT_LENGTH = 15;  // 本物は60
+const ALERT_LENGTH = 16;  // 本物は60
 const MOVE_DIFF_THRESHOLD = 1.2;
 
 const startButton = document.getElementById("startButton");
